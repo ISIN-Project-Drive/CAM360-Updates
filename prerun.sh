@@ -9,6 +9,7 @@ ver=$(head -n 1 VERSION.txt)
 
 echo "   -> executing '$exe $por $rel $ver'..."
 
+chmod +x $exe
 ./$exe $por $rel $ver
 
 echo "   -> done!"
