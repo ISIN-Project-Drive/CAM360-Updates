@@ -1,0 +1,33 @@
+@Version;0.0.1
+# Example input parameters file with default values
+#comPortName;string; max length: 512
+#startWithOpenDoors;bool;startWithOpenDoors = {0, 1}
+#inputsCnt;int;
+#sourceType;GstReaderSourceType;sourceType = {GST_READER_SOURCE_FILE, GST_READER_SOURCE_STREAM, GST_READER_SOURCE_DEVICE}
+#source;string; max length: 512
+#MaxBufferSize;int;
+#ROIPositionX;int;ROIPositionX >= 0
+#ROIPositionY;int;ROIPositionY >= 0
+#ROIWidth;int;ROIWidth >= 1
+#ROIHeight;int;ROIHeight >= 1
+#MaxDetectionWidth;int;MaxDetectionWidth >= 1
+#MaxDetectionHeigth;int;MaxDetectionHeigth >= 1
+#MinDetectionWidth;int;MinDetectionWidth >= 1
+#MinDetectionHeight;int;MinDetectionHeight >= 1
+#MaxTrackerNumber;int;MaxTrackerNumber >= 1
+#MinTrackerDistanceX;int;MinTrackerDistanceX >= 1
+#MinTrackerDistanceY;int;MinTrackerDistanceY >= 1
+#TrackerAreaWidth;int;TrackerAreaWidth >= 1
+#TrackerAreaHeight;int;TrackerAreaHeight >= 1
+#TrackerHorizontalAlignment;bool;TrackerHorizontalAlignment = {0, 1}
+#GoalLeft;int;GoalLeft >= 1
+#GoalRight;int;GoalRight >= 1
+#TrailSize;int;TrailSize >= 1
+#MinTrailLength;int;MinTrailLength >= 1
+#dbg_SaveVideo;bool;dbg_SaveVideo = {0, 1}
+#dbg_EnableFrame;bool;dbg_EnableFrame = {0, 1}
+#dbg_EnableModifiedFrame;bool;dbg_EnableModifiedFrame = {0, 1}
+comPortName;startWithOpenDoors;inputsCnt;sourceType[0];sourceType[1];sourceType[2];sourceType[3];sourceType[4];source[0];source[1];source[2];source[3];source[4];MaxBufferSize;ROIPositionX;ROIPositionY;ROIWidth;ROIHeight;MaxDetectionWidth;MaxDetectionHeigth;MinDetectionWidth;MinDetectionHeight;MaxTrackerNumber;MinTrackerDistanceX;MinTrackerDistanceY;TrackerAreaWidth;TrackerAreaHeight;TrackerHorizontalAlignment;GoalLeft;GoalRight;TrailSize;MinTrailLength;dbg_SaveVideo;dbg_EnableFrame;dbg_EnableModifiedFrame;
+#/dev/ttyTHS1;1;1;GST_READER_SOURCE_STREAM;GST_READER_SOURCE_STREAM;GST_READER_SOURCE_STREAM;GST_READER_SOURCE_STREAM;GST_READER_SOURCE_STREAM;"rtsp://10.11.41.131/live2.sdp";"rtsp://10.11.41.131/live2.sdp";"rtsp://10.11.41.131/live2.sdp";"rtsp://10.11.41.131/live2.sdp";"rtsp://10.11.41.131/live2.sdp";500;150;120;370;80;200;300;60;60;2;130;80;75;60;1;60;235;10;80;0;0;0;
+/dev/ttyTHS1;1;1;GST_READER_SOURCE_STREAM;GST_READER_SOURCE_STREAM;GST_READER_SOURCE_STREAM;GST_READER_SOURCE_STREAM;GST_READER_SOURCE_STREAM;"rtsp://10.11.41.131/live2.sdp";"rtsp://10.11.41.131/live2.sdp";"rtsp://10.11.41.131/live2.sdp";"rtsp://10.11.41.131/live2.sdp";"rtsp://10.11.41.131/live2.sdp";500;280;80;90;350;160;300;55;60;8;100;100;70;95;0;200;440;10;15;0;1;0;
+
