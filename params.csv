@@ -1,4 +1,4 @@
-@Version;0.0.1
+@Version;0.0.2
 # Example input parameters file with default values
 #comPortName;string; max length: 512
 #startWithOpenDoors;bool;startWithOpenDoors = {0, 1}
